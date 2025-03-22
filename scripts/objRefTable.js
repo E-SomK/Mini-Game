@@ -32,7 +32,7 @@ self.C3_JsPropNameTable = [
 	{Platform: 0},
 	{ScrollTo: 0},
 	{BoundToLayout: 0},
-	{LuffyMain: 0},
+	{slimeg: 0},
 	{Solid: 0},
 	{Ground1: 0},
 	{Sine: 0},
@@ -51,11 +51,11 @@ self.C3_JsPropNameTable = [
 	{Collectible: 0},
 	{TiledBackground: 0},
 	{Collectible2: 0},
-	{LuffyGearTwo: 0}
+	{slimep: 0}
 ];
 
 self.InstanceType = {
-	LuffyMain: class extends self.ISpriteInstance {},
+	slimeg: class extends self.ISpriteInstance {},
 	Ground1: class extends self.ITiledBackgroundInstance {},
 	PGupandDown: class extends self.ITiledBackgroundInstance {},
 	Obstacle1: class extends self.ITiledBackgroundInstance {},
@@ -69,5 +69,5 @@ self.InstanceType = {
 	Collectible: class extends self.ISpriteInstance {},
 	TiledBackground: class extends self.ITiledBackgroundInstance {},
 	Collectible2: class extends self.ISpriteInstance {},
-	LuffyGearTwo: class extends self.ISpriteInstance {}
+	slimep: class extends self.ISpriteInstance {}
 }
